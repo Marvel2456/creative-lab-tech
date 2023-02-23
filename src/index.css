@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 @layer base {
-    button {
+    /* button {
         @apply text-white border bg-[#5e2130]
         hover:bg-transparent hover:text-[#5e2130] rounded-md
-    }
+    } */
 }

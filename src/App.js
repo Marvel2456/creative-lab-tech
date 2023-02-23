@@ -1,11 +1,9 @@
 import React from "react";
-// import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 
 function App() {
   return (
-    <div className='w-full h-screen'>
-      {/* <Navbar /> */}
+    <div>
       <Home />
     </div>
   );
