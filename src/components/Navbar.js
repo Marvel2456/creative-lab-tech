@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import Logo from '../assets/mylogo.svg'
 import {HiOutlineMenuAlt1} from 'react-icons/hi'
 
 const Navbar = () => {
@@ -15,14 +14,15 @@ const Navbar = () => {
         <nav className='relative mx-auto container py-4'>
            <div className='flex px-10 items-center justify-between md:px-[160px]'> 
                 <div className='flex items-center'>
-                    <img src={Logo} className='h-[50px]' alt='/' />   
+                    <h3>Creative Labs</h3>   
                 </div>
-                <ul className='hidden md:flex pr-2 space-x-6 font-bold'>
+                <ul className='hidden md:flex pr-2 space-x-6'>
                     <li className=''>Home</li>
                     <li className=''>About</li>
-                    <li className=''>Products</li>
-                    <li className=''>Contact Us</li>
+                    <li className=''>Works</li>
+                    <li className=''>Services</li>
                 </ul>
+                <ul className='hidden md:flex'><button className='rounded-full bg-[#036666] py-2 px-4 text-white'>Start a project</button></ul>
                 <div onClick={handleClick} className='md:hidden'>
                     <HiOutlineMenuAlt1 className='w-5' size={30} />
                 </div>
@@ -30,11 +30,11 @@ const Navbar = () => {
             
         </nav>
 
-        <ul className={!nav ? 'hidden' : 'absolute bg-white w-full px-8 h-[360px]'}>
+        <ul className={!nav ? 'hidden' : 'absolute bg-white w-full px-10 h-[360px]'}>
             <li className='border-b-2 py-3 border-gray-400 w-full'>Home</li>
             <li className='border-b-2 py-3 border-gray-400 w-full'>About</li>
-            <li className='border-b-2 py-3 border-gray-400 w-full'>Products</li>
-            <li className='border-b-2 py-3 w-full'>Contact Us</li>    
+            <li className='border-b-2 py-3 border-gray-400 w-full'>Services</li>   
+            <ul className='pt-4'><button className='rounded-full bg-[#036666] py-2 px-4 text-white'>Start a project</button></ul>
         </ul>
             
         
