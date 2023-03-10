@@ -1,5 +1,6 @@
 import React from 'react'
 import AboutUs from '../components/AboutUs'
+import FeaturedWorks from '../components/FeaturedWorks'
 import Hero from '../components/Hero'
 import Navbar from '../components/Navbar'
 import Services from '../components/Services'
@@ -10,7 +11,8 @@ const Home = () => {
       <Navbar />
       <Hero />
       <AboutUs />
-      <Services />
+      <FeaturedWorks />
+      {/* <Services /> */}
     </div>
   )
 }
