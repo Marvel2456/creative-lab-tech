@@ -14,7 +14,7 @@ const Hero = () => {
                 <h1 className='py-2 text-4xl md:text-8xl font-bold'>meaniful experiences</h1>
               </div>
               <div className='py-12 relative'>
-                <div className='absolute top-0 -right-4 md:-left-[-300px]  w-80 h-80 bg-[#9a7800] rounded-full filter blur-xl opacity-[10%]'></div>
+                <div className='absolute top-0 -right-4 md:-left-[-300px]  w-80 h-80 bg-[#9a7800] rounded-full filter blur-xl opacity-[6%]'></div>
                 <div className='space-y-2 md:text-xl relative'>
                   <p>At creative labs, we are a design and development studio, we work with clients and startups</p>
                   <p>and established brands to create solutions that thrives and moves business growth. We</p>

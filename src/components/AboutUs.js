@@ -1,5 +1,4 @@
 import React from 'react'
-import Panel from '../assets/panel.jpg'
 
 const AboutUs = () => {
   return (
@@ -10,7 +9,7 @@ const AboutUs = () => {
             <h3 className='font-bold text-4xl md:text-5xl'>Delivering exceptional</h3>
             <h3 className='font-bold text-4xl md:text-5xl'>solutions and results</h3>
           </div>
-          <div className=''>
+          <div className='md:text-xl'>
             <p>We take pride in creating custom solutions that perfectly fit your business needs. Whatever your requirements may be, we have the expertise and creativity 
               to make a positive impact on your business through our design and development services.</p>
           </div>

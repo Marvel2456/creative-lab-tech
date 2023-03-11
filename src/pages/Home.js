@@ -4,6 +4,7 @@ import FeaturedWorks from '../components/FeaturedWorks'
 import Hero from '../components/Hero'
 import Navbar from '../components/Navbar'
 import Services from '../components/Services'
+import StartProject from '../components/StartProject'
 
 const Home = () => {
   return (
@@ -12,7 +13,8 @@ const Home = () => {
       <Hero />
       <AboutUs />
       <FeaturedWorks />
-      {/* <Services /> */}
+      <Services />
+      <StartProject />
     </div>
   )
 }
