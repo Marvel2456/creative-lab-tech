@@ -9,9 +9,9 @@ const Hero = () => {
           
             <div className='flex px-10 flex-col justify-center md:items-start w-full md:px-[160px] py-8'>
               <div className=' pt-[60px] md:pt-[100px]'>
-                <h1 className='py-2 text-4xl md:text-8xl font-bold'>Creative design studio</h1>
-                <h1 className='py-2 text-4xl md:text-8xl font-bold'>helping businesses craft</h1>
-                <h1 className='py-2 text-4xl md:text-8xl font-bold'>meaniful experiences</h1>
+                <h1 className='text-4xl md:text-8xl font-bold'>Creative design studio</h1>
+                <h1 className='text-4xl md:text-8xl font-bold'>helping businesses craft</h1>
+                <h1 className='text-4xl md:text-8xl font-bold'>meaniful experiences</h1>
               </div>
               <div className='py-12 relative'>
                 <div className='absolute top-0 -right-4 md:-left-[-300px]  w-80 h-80 bg-[#9a7800] rounded-full filter blur-xl opacity-[6%]'></div>

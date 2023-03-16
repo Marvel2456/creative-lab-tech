@@ -10,25 +10,25 @@ const FeaturedWorks = () => {
             </div>
             <div className='container rounded-lg  bg-[#E1E6F4]'>
                 <div className='grid md:grid-cols-2'>
-                    <div className=''>
-                        <div className='flex px-11 pt-11 space-x-2'>
+                    <div className='px-5 md:px-11'>
+                        <div className='flex  pt-11 space-x-2'>
                             <p className='py-3 px-8 rounded-full border-gray-400 border-2'>Web design</p>
                             <p className='py-3 px-8 rounded-full border-gray-400 border-2'>Development</p>
                         </div>
-                        <div className='px-11 pt-[60px] justify-center items-center'>
+                        <div className=' pt-[60px] justify-center items-center'>
                             <h3 className='font-bold text-5xl py-3'>TY-Lease</h3>
                         </div>
-                        <div className='px-11 md:text-xl'>
+                        <div className=' md:text-xl'>
                             <p className='py-3'>We partnered with Ty-Lease Property Enterprise to create a visually stunning website that
                             effectively showcases their property listings.
                             </p>
                         </div>
-                        <div className='px-11 pt-10 pb-[130px]'>
+                        <div className=' pt-10 pb-[130px]'>
                             <button className='py-3 px-8 rounded-full border-gray-400 border-2'>View live website</button>
                         </div>
                     </div>
                 
-                    <div className=''>
+                    <div className='px-5 md:px-11'>
                         {/* add images */}
                     </div>
                 </div>
@@ -37,20 +37,20 @@ const FeaturedWorks = () => {
 
             <div className='container rounded-lg  bg-[#E9E1F4]'>
                 <div className='grid md:grid-cols-2'>
-                    <div className=''>
-                        <div className='flex px-11 pt-11 space-x-2'>
-                            <p className='py-3 px-8 rounded-full border-gray-400 border-2'>Web design</p>
-                            <p className='py-3 px-8 rounded-full border-gray-400 border-2'>Development</p>
+                    <div className='px-5 md:px-11'>
+                        <div className='flex pt-11 space-x-2'>
+                            <p className='py-3 rounded-full border-gray-400 border-2'>Web design</p>
+                            <p className='py-3 rounded-full border-gray-400 border-2'>Development</p>
                         </div>
                         <div className='px-11 pt-[60px] justify-center items-center'>
                             <h3 className='font-bold text-5xl py-3'>TY-Lease</h3>
                         </div>
-                        <div className='px-11 md:text-xl'>
+                        <div className='md:text-xl'>
                             <p className='py-3'>We partnered with Ty-Lease Property Enterprise to create a visually stunning website that
                             effectively showcases their property listings.
                             </p>
                         </div>
-                        <div className='px-11 pt-10 pb-[130px]'>
+                        <div className='pt-10 pb-[130px]'>
                             <button className='py-3 px-8 rounded-full border-gray-400 border-2'>View live website</button>
                         </div>
                     </div>
@@ -64,20 +64,20 @@ const FeaturedWorks = () => {
 
             <div className='container rounded-lg  bg-[#E9F4E1]'>
                 <div className='grid md:grid-cols-2'>
-                    <div className=''>
-                        <div className='flex px-11 pt-11 space-x-2'>
-                            <p className='py-3 px-8 rounded-full border-gray-400 border-2'>Web design</p>
-                            <p className='py-3 px-8 rounded-full border-gray-400 border-2'>Development</p>
+                    <div className='px-5 md:px-11'>
+                        <div className='flex pt-11 space-x-2'>
+                            <p className='py-3 rounded-full border-gray-400 border-2'>Web design</p>
+                            <p className='py-3 rounded-full border-gray-400 border-2'>Development</p>
                         </div>
-                        <div className='px-11 pt-[60px] justify-center items-center'>
+                        <div className='pt-[60px] justify-center items-center'>
                             <h3 className='font-bold text-5xl py-3'>TY-Lease</h3>
                         </div>
-                        <div className='px-11 md:text-xl'>
+                        <div className='md:text-xl'>
                             <p className='py-3'>We partnered with Ty-Lease Property Enterprise to create a visually stunning website that
                             effectively showcases their property listings.
                             </p>
                         </div>
-                        <div className='px-11 pt-10 pb-[130px]'>
+                        <div className='pt-10 pb-[130px]'>
                             <button className='py-3 px-8 rounded-full border-gray-400 border-2'>View live website</button>
                         </div>
                     </div>

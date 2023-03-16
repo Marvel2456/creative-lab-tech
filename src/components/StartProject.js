@@ -10,7 +10,13 @@ const StartProject = () => {
                 <p className='md:text-xl py-10'>Bring your ideas to life what ever it may be</p>
             </div>
             <div className='flex py-4 pb-[120px] items-center justify-center'>
-                <button className='flex py-3 px-[100px] bg-[#FAFAFA] text-[#0E6960] rounded-full'>Start a project <HiOutlineArrowRight /></button>
+              <div>
+                <button className='flex py-3 px-[100px] bg-[#FAFAFA] text-[#0E6960] rounded-full text-xl'>Start a project&nbsp; 
+                  <div className='pt-1.5'><HiOutlineArrowRight size={20} /></div>
+                </button>
+              </div>
+              
+                
             </div>
             <div>
                
