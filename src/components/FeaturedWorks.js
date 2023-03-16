@@ -39,8 +39,8 @@ const FeaturedWorks = () => {
                 <div className='grid md:grid-cols-2'>
                     <div className='px-5 md:px-11'>
                         <div className='flex pt-11 space-x-2'>
-                            <p className='py-3 rounded-full border-gray-400 border-2'>Web design</p>
-                            <p className='py-3 rounded-full border-gray-400 border-2'>Development</p>
+                            <p className='py-3 px-8 rounded-full border-gray-400 border-2'>Web design</p>
+                            <p className='py-3 px-8 rounded-full border-gray-400 border-2'>Development</p>
                         </div>
                         <div className='px-11 pt-[60px] justify-center items-center'>
                             <h3 className='font-bold text-5xl py-3'>TY-Lease</h3>
@@ -66,8 +66,8 @@ const FeaturedWorks = () => {
                 <div className='grid md:grid-cols-2'>
                     <div className='px-5 md:px-11'>
                         <div className='flex pt-11 space-x-2'>
-                            <p className='py-3 rounded-full border-gray-400 border-2'>Web design</p>
-                            <p className='py-3 rounded-full border-gray-400 border-2'>Development</p>
+                            <p className='py-3 px-8 rounded-full border-gray-400 border-2'>Web design</p>
+                            <p className='py-3 px-8 rounded-full border-gray-400 border-2'>Development</p>
                         </div>
                         <div className='pt-[60px] justify-center items-center'>
                             <h3 className='font-bold text-5xl py-3'>TY-Lease</h3>
