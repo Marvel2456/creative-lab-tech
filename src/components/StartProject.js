@@ -18,8 +18,8 @@ const StartProject = () => {
               
                 
             </div>
-            <div>
-               
+            <div className='relative'>
+              <div className='absolute top-0 -right-4 md:-left-[-1150px]  w-80 h-80 bg-[#9a7800] rounded-full filter blur-xl opacity-[6%]'></div>
             </div>
 
         </section>
