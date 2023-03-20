@@ -1,5 +1,7 @@
 import React, {useState} from 'react'
 import {HiOutlineMenuAlt1} from 'react-icons/hi'
+import { Link } from 'react-router-dom';
+
 
 const Navbar = () => {
 
@@ -17,9 +19,15 @@ const Navbar = () => {
                     <h3>Creative Labs</h3>   
                 </div>
                 <ul className='hidden md:flex pr-2 space-x-6'>
-                    <li className=''>Home</li>
-                    <li className=''>About</li>
-                    <li className=''>Works</li>
+                    <li className=''>
+                        <Link to='/'>Home</Link>
+                    </li>
+                    <li className=''>
+                        <Link to='about'>About</Link>
+                    </li>
+                    <li className=''>
+                        <Link to='works'>Works</Link>
+                    </li>
                     <li className=''>Services</li>
                 </ul>
                 <ul className='hidden md:flex'><button className='rounded-full bg-[#036666] py-2 px-4 text-white'>Start a project</button></ul>
