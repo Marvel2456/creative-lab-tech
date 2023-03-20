@@ -5,16 +5,16 @@ const Footer = () => {
   return (
     <div className='container w-full h-full pt-16'>
         <section className='px-10 md:px-[160px] bg-white'>
-            <div className='md:flex grid-cols-2 '>
+            <div className='md:flex grid-cols-2 space-y-2 md:space-y-0'>
               <div className='grid md:flex pr-20 md:pr-16'>
                 <h3>Creative labs</h3>
               </div>
               
               <ul className='grid md:flex md:space-x-12 md:pl-[56%]'>
                 <li>Home</li>
-                <li>Works</li>
-                <li>Services</li>
-                <li>Contact</li>
+                <li className='pt-2 md:pt-0'>Works</li>
+                <li className='pt-2 md:pt-0'>Services</li>
+                <li className='pt-2 md:pt-0'>Contact</li>
               </ul>
               
             </div>
