@@ -62,7 +62,7 @@ const FeaturedWorks = () => {
                 
             </div>
 
-            <div className='container rounded-lg  bg-[#E9F4E1]'>
+            <div className='container rounded-lg  bg-[#E9F4E1] w-full'>
                 <div className='grid md:grid-cols-2'>
                     <div className='px-5 md:px-11'>
                         <div className='flex pt-11 space-x-2'>
