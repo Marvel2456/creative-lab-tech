@@ -3,7 +3,7 @@ import {BiCopyright} from 'react-icons/bi'
 
 const Footer = () => {
   return (
-    <div className='container w-full h-full pt-16'>
+    <div className='container w-full h-full pt-16 pb-10'>
         <section className='px-10 md:px-[160px] bg-white'>
             <div className='md:flex grid-cols-2 space-y-2 md:space-y-0'>
               <div className='grid md:flex pr-20 md:pr-16'>
